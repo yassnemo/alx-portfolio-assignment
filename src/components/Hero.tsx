@@ -68,9 +68,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto"
         >
-          Driven by curiosity and powered by analytics. Passionate about leveraging AI 
-          for intelligent decision-making and exploring the intersection of technology 
-          and human behavior.
+          I find data to be an intersting intersection between technology and the us as humans. And with the skills I have acquired, I am able to play with the data to extract insights and make informed decisions for both businesses and individuals.
         </motion.p>
 
         <motion.div 
@@ -78,9 +76,9 @@ const Hero = () => {
           className="flex justify-center space-x-6"
         >
           {[
-            { icon: Github, href: "https://github.com/yourusername", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/yourusername", label: "LinkedIn" },
-            { icon: Mail, href: "mailto:your.email@example.com", label: "Email" }
+            { icon: Github, href: "https://github.com/yassnemo", label: "GitHub" },
+            { icon: Linkedin, href: "https://linkedin.com/in/yassine-erradouani", label: "LinkedIn" },
+            { icon: Mail, href: "mailto:yassine.erradouani@protonmail.com", label: "Email" }
           ].map(({ icon: Icon, href, label }) => (
             <motion.a
               key={label}
