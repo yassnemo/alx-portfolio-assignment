@@ -1,28 +1,44 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
+import { text } from 'framer-motion/client';
 
 const projects = [
   {
-    title: "Chess Game Analyzer & Insights",
-    description: "AI-powered chess game analysis platform that provides deep insights into player strategies, move accuracy, and improvement suggestions using advanced machine learning algorithms.",
-    tech: ["Python", "TensorFlow", "React", "PostgreSQL"],
-    github: "https://github.com/yourusername/chess-analyzer",
-    image: "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?auto=format&fit=crop&q=80"
+    title: "Real-Time Twitter Sentiment Analysis in R",
+    description: "Real-time sentiment analysis tool that tracks and analyzes tweets in real-time to provide insights into public opinion and sentiment on various topics.",
+    tech: ["R", "Shiny", "TextBlob", "Twitter API"],
+    github: "https://github.com/yassnemo/real-time-sentiment-twitter-analysis",
+    image: "https://raw.githubusercontent.com/Arnab-Rajkhowa/Twitter-Sentiment-Analysis/master/tweet-dashboard.PNG"
   },
   {
     title: "Fraud Detection System",
-    description: "Machine learning-based fraud detection system that uses anomaly detection and pattern recognition to identify suspicious transactions in real-time.",
+    description: "A fraud detection system to detect fraudulent transactions. It employs data preprocessing, trains a model (e.g., Random Forest), and deploys the system with Flask for real-time predictions.",
     tech: ["Python", "Scikit-learn", "FastAPI", "Redis"],
-    github: "https://github.com/yourusername/fraud-detection",
+    github: "https://github.com/yassnemo/fraud-detection-system-",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80"
   },
   {
-    title: "Personalized News Aggregator",
-    description: "AI-driven news aggregation platform that learns user preferences and delivers personalized content recommendations using natural language processing.",
-    tech: ["Python", "PyTorch", "Next.js", "MongoDB"],
-    github: "https://github.com/yourusername/news-aggregator",
-    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80"
+    title: "Chess Game Analyser",
+    description: "A Python-based tool for analyzing chess games from PGN files. Designed to give insights about gameplay, detect patterns, and help improve strategic decisions.",
+    tech: ["Python", "BeautifulSoup", "Flask", "SQLite"],
+    github: "https://github.com/yassnemo/chess-game-analyser",
+    image: "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    title: "Visualizing Energy Consumption Patterns",
+    description: "Data visualization tool that analyzes and visualizes energy consumption patterns to help businesses optimize their energy usage and reduce costs.",
+    tech: ["Python", "Pandas", "Plotly", "SQLite"],
+    github: "https://github.com/yassnemo/visualizing-energy-consumption-patterns",
+    image: "https://www.mdpi.com/mti/mti-03-00056/article_deploy/html/images/mti-03-00056-g007a.png"
+  }
+  ,
+  {
+    title: "Population Growth Dashboard",
+    description: "Interactive dashboard that visualizes population growth trends and forecasts for different regions using historical data and predictive analytics.",
+    tech: ["Python", "Dash", "SQLite", "Heroku"],
+    github: "https://github.com/yassnemo/population-growth-dashboard",
+    image: "https://files.mtstatic.com/site_9264/191386/1?Expires=1743089899&Signature=Ygdm~P0gXUUf~zvwH3FecqC8~hbVb~UKLzoyBsU8PTnCYGpZyhfNXRvPdEtwb1UBBR~Iih~SgRqzoN0eHA3ggiY4vrj-yCA9eA7blp6jEa2Te8Lc2NSmMNXJ9w2vH6NC7zLSOqC88jAL8oMn5OmyOvGSqi3sNEQLF1zbA2mYxx4_&Key-Pair-Id=APKAJ5Y6AV4GI7A555NA"
   }
 ];
 
