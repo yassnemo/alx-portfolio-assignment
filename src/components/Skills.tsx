@@ -4,19 +4,94 @@ import { motion } from 'framer-motion';
 const skillCategories = [
   {
     title: "Programming Languages",
-    skills: ["Python", "SQL", "JavaScript", "R", "Java"]
+    skills: ["Python", "R", "SQL", "Java", "C", "C++", "JavaScript"]
   },
   {
-    title: "Machine Learning",
-    skills: ["TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenCV"]
+    title: "Data Science & Machine Learning",
+    skills: [
+      "Pandas",
+      "NumPy",
+      "SciPy",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "XGBoost",
+      "LightGBM",
+    ]
   },
   {
-    title: "Data Science",
-    skills: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter"]
+    title: "Data Visualization",
+    skills: [
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "Tableau",
+      "Power BI",
+      "Jupyter Notebooks",
+    ]
   },
   {
-    title: "Tools & Platforms",
-    skills: ["Git", "Docker", "AWS", "Hugging Face", "MLflow"]
+    title: "Big Data & Engineering",
+    skills: [
+      "Apache Spark",
+      "Hadoop",
+      "Kafka",
+      "Airflow",
+      "PySpark",
+      "ETL Pipelines",
+    ]
+  },
+  {
+    title: "Databases",
+    skills: [
+      "PostgreSQL",
+      "MongoDB",
+      "SQLite",
+      "Redis",
+      "MySQL",
+      "Snowflake",
+    ]
+  },
+  {
+    title: "Cloud & Deployment",
+    skills: [
+      "AWS (S3, EC2, Lambda)",
+      "Google Cloud Platform",
+      "Microsoft Azure",
+      "Docker",
+      "Kubernetes",
+      "Vercel",
+    ],
+  },
+  {
+    title: "Backend & APIs",
+    skills: ["Node.js", "Express.js", "Flask", "FastAPI", "REST APIs"],
+  },
+  {
+    title: "Statistics & Analytics",
+    skills: [
+      "Statistical Modeling",
+      "A/B Testing",
+      "Time Series Analysis",
+      "Regression Analysis",
+      "Hypothesis Testing",
+    ],
+  },
+  {
+    title: "Version Control & Tools",
+    skills: ["Git", "GitHub", "VS Code", "JIRA", "Conda", "Pip"],
+  },
+  {
+    title: "Other Relevant Skills",
+    skills: [
+      "Linux",
+      "Bash",
+      "Excel",
+      "Data Wrangling",
+      "Feature Engineering",
+      "MLOps",
+    ]
   }
 ];
 
