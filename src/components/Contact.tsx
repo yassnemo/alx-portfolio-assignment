@@ -34,7 +34,7 @@ const Contact = () => {
           className="flex justify-center space-x-8"
         >
           <a 
-            href="https://github.com/yourusername" 
+            href="https://github.com/yassnemo" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex flex-col items-center space-y-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -46,7 +46,7 @@ const Contact = () => {
           </a>
           
           <a 
-            href="https://linkedin.com/in/yourusername" 
+            href="https://linkedin.com/in/yassine-erradouani" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex flex-col items-center space-y-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -58,7 +58,7 @@ const Contact = () => {
           </a>
           
           <a 
-            href="mailto:your.email@example.com"
+            href="mailto:yassine.erradouani@protonmail.com"
             className="flex flex-col items-center space-y-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
           >
             <div className="p-4 bg-gray-100 dark:bg-gray-800 rounded-full">
