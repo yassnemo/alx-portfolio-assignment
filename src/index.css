@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-800;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-purple-500/20;
+  }
+}
+
+.glass-effect {
+  @apply backdrop-blur-md bg-white/80 dark:bg-gray-900/80;
+}
+
+.hover-card {
+  @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+}
+
+.section-container {
+  @apply max-w-4xl mx-auto px-6 py-20;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.floating-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Hide scrollbar but keep functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-700 rounded-full;
+}
+
+/* Custom shape dividers */
+.shape-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.shape-divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.shape-divider .shape-fill {
+  @apply fill-gray-50 dark:fill-gray-800;
+}
+
+/* Prevent canvas from affecting layout */
+canvas {
+  position: fixed !important;
+}
+
+/* Optimize performance */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Improve animation performance */
+.transform-gpu {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
