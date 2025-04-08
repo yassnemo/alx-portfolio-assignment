@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import ShapeDivider from './ShapeDivider';
-import profileImage from '../public/profile.jpg'; // add profile image
 
 const Hero = () => {
   const containerVariants = {
@@ -55,7 +54,7 @@ const Hero = () => {
           className="mb-8 inline-block"
         >
           <img 
-            src={profileImage} 
+            src="public/profile.jpg"
             alt="Yassine Erradouani" 
             className="rounded-full w-40 h-40 object-cover border-4 border-purple-500 shadow-lg mx-auto"
           />
