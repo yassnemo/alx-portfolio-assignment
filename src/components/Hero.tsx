@@ -48,21 +48,21 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center pt-20 px-6"
     >
       <div className="max-w-4xl mx-auto text-center">
-        {/* Add the profile image  */}
+        {/* Profile image with increased size and proper alignment */}
         <motion.div 
           variants={itemVariants}
-          className="mb-8 inline-block"
+          className="mb-10 w-full flex justify-center"
         >
           <img 
-            src="public/profile.jpg"
+            src="/profile.jpg"
             alt="Yassine Erradouani" 
-            className="rounded-full w-40 h-40 object-cover border-4 border-purple-500 shadow-lg mx-auto"
+            className="rounded-full w-48 h-48 md:w-56 md:h-56 object-cover border-4 border-purple-500 shadow-lg"
           />
         </motion.div>
 
         <motion.div
           variants={itemVariants}
-          className="mb-6 inline-block"
+          className="mb-6 block w-full"
         >
           <h1 className="text-4xl md:text-6xl font-bold gradient-text">
             Yassine Erradouani
