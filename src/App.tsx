@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import ElevatorPitch from './components/ElevatorPitch';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
@@ -43,6 +44,7 @@ function App() {
           <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
           <main className="relative z-10">
             <Hero />
+            <ElevatorPitch />
             <About />
             <Skills />
             <Projects />
