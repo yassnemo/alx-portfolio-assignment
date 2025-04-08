@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import ShapeDivider from './ShapeDivider';
+import profileImage from '../public/profile.jpg'; // add profile image
 
 const Hero = () => {
   const containerVariants = {
@@ -48,6 +49,18 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center pt-20 px-6"
     >
       <div className="max-w-4xl mx-auto text-center">
+        {/* Add the profile image  */}
+        <motion.div 
+          variants={itemVariants}
+          className="mb-8 inline-block"
+        >
+          <img 
+            src={profileImage} 
+            alt="Yassine Erradouani" 
+            className="rounded-full w-40 h-40 object-cover border-4 border-purple-500 shadow-lg mx-auto"
+          />
+        </motion.div>
+
         <motion.div
           variants={itemVariants}
           className="mb-6 inline-block"
