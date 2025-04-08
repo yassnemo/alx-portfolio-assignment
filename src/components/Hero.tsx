@@ -80,7 +80,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto"
         >
-          I find data to be an intersting intersection between technology and the us as humans. And with the skills I have acquired, I am able to play with the data to extract insights and make informed decisions for both businesses and individuals.
+          I find data to be an intersting intersection between technology and humans. 
         </motion.p>
 
         <motion.div 
